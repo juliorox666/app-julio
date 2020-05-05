@@ -1,0 +1,48 @@
+* {
+    font-size: 13px;
+}
+body { background-color: #fdfdfd !important;}
+.form-group.form-group--error input {
+    border-color: red;
+}
+.form-group .error {
+    color: red;
+}
+.error-msg {
+    background-color: rgba(220, 53, 69, 1) !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+}
+.info-msg {
+    background-color: rgba(19, 132, 150, 1) !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+}
+.success-msg {
+    background-color: rgba(122, 193, 62, 1) !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+}
+.negativo { color: red; }
+.positivo { color: #29cc29; }
+
+/** nav-principal **/
+.nav-principal {background-color: rgba(85, 140, 195, 0.2) !important;}
+.nav-principal a {color: #2261a7 !important;}
+.nav-principal a.logout {color: #d02c2c !important;}
+.nav-principal .nav-link:hover {background-color: rgba(34, 97, 167, 0.2) !important; border-radius: 5px;}
+.nav-principal .navbar-brand:hover {opacity: 0.7;}
+.introducao { 
+    background-color: #558cc3 !important;
+    border-radius: 0px !important;
+    color: #fff !important;
+    text-align: left !important;
+}
+.vue-chart-container {overflow: auto !important;}
+.navbar-collapse .logout.innav {display: none;}
+
+@media (max-width: 991px) {
+    .nav-principal .nav-link {padding-left: 13px !important;}
+    .navbar-collapse .logout.innav {display: block;}
+    .container .logout.outnav {display: none;}
+}

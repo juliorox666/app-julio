@@ -1,0 +1,15 @@
+
+.cotacao-content {
+    cursor: pointer;
+    background-color: #eee;
+    color: #333;
+    text-decoration: none;
+    padding: 15px 0 5px 0;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 1px 0px 2px #d6d6d6;
+}
+.cotacao-content:hover {
+    background-color: rgba(238, 238, 238, .3);
+    text-decoration: none;
+}
